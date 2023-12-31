@@ -1,0 +1,70 @@
+body {
+    background-image: url(f1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay-box {
+
+    width: 68%;
+    height: 85%;
+    background-color: rgba(42, 39, 39, 0.7);
+    margin: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+.resized-image {
+    width: 15%;
+    height: 15%;
+}
+
+.scritta {
+    color: greenyellow;
+}
+
+nav {
+    background-color: rgb(166, 250, 41);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.paragrafo {
+    padding: 10px;
+}
+
+main {
+    color: white;
+    margin-left: 70px;
+}
+
+.linea1 {
+    background-color: orange;
+    border-radius: 5px;
+    width: 40%;
+    height: 20px;
+}
+
+.linea2 {
+    background-color: green;
+    border-radius: 5px;
+    width: 60%;
+    height: 20px;
+}
+
+.linea3 {
+    background-color: red;
+    border-radius: 5px;
+    width: 20%;
+    height: 20px;
+}
